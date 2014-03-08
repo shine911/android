@@ -13,7 +13,7 @@ which hardware base your phone is working.
 
 for codina devices:
 
-	repo init -u git://bitbucket.org/platform_manifest.git -b codina_slimkat
+	repo init -u git://github.com/shine911/android.git -b codina-slimkat
 
 
 Then sync up with this command:
