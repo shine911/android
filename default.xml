@@ -387,7 +387,7 @@
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
 
   <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
+  <project path="packages/apps/SlimCenter" name="shine911/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
@@ -419,7 +419,7 @@
 	
    <!-- TeamCanjica Codina Source -->
   <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="github" revision="3.0.31" />
-  <project path="device/samsung/codina" name="TeamCanjica/android_device_samsung_codina" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/codina" name="shine911/android_device_samsung_codina" remote="github" revision="slimkat" />
   <project path="device/samsung/codinap" name="TeamCanjica/android_device_samsung_codinap" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-11.0" />
