@@ -159,7 +159,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="github" revision="kk4.4" />
+  <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="github" revision="cm-11.0" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -265,7 +265,7 @@
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
+  <project path="hardware/ril" name="CyanogenMod/hardware_ril" remote="github" revision="cm-11.0" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
