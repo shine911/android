@@ -11,7 +11,7 @@ To get started with SlimKat, you'll need to get familiar with
 Please take note that we have two main line branches depending on
 which hardware base your phone is working.
 
-for codina devices:
+for codina devices (included codinap):
 
 	repo init -u git://github.com/shine911/android.git -b codina-slimkat
 
