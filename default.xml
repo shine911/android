@@ -416,7 +416,7 @@
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="github" revision="cm-11.0" />
   
   <!-- Omni Recovery -->
-  <project path="bootable/recovery" name="Omnirom/bootable_recovery" remote="github" revision="android-4.4" />
+  <project path="bootable/recovery" name="Omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
   
   <!-- My source-->
   <project path="android" name="shine911/android" remote="github" revision="codina-slimkat" />
