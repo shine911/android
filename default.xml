@@ -71,7 +71,7 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
+  <project path="external/chromium_org/third_party/openssl" name="SlimRoms/android_external_chromium_org_third_party_openssl" remote="github" revision="kk4.4" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
@@ -182,7 +182,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="SlimRoms/android_external_openssl" remote="github" revision="kk4.4" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -425,7 +425,8 @@
   <!-- My Slim OTA -->
   <project path="packages/apps/SlimCenter" name="shine911/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
 
-  <!-- TeamCanjica Codina Source -->
+  <!-- TeamCanjica Codina Source And NovaThorSettings -->
   <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="github" revision="3.0.31" />
+  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" revision="master" />
   
 </manifest>
