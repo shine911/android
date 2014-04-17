@@ -430,7 +430,7 @@
   <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" remote="github" revision="master" />
   
   <!-- STE U8500 PATCHES -->
-  <project path="patch" name="shine911/build" remote="github" revision="master">
+  <project path="patch" name="shine911/build" remote="github" revision="slimkat">
 	<copyfile src="build.sh" dest="build.sh"/>
 	<copyfile src="patch.sh" dest="patch.sh"/>
   </project>
