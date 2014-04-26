@@ -26,7 +26,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="shine911/android" remote="github" revision="kitkat" />
+  <project path="manifest" name="shine911/android" remote="github" revision="codina-aospa" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
