@@ -7,9 +7,6 @@
   <remote  name="github"
            fetch="git://github.com" />
 
-  <remote  name="review"
-           fetch="https://code-review.phablet.ubuntu.com/p/" />
-	
   <default revision="refs/heads/phablet-trusty"
            remote="phablet"
            sync-c="true"
@@ -19,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="shine911/android" remote="github" revision="phablet-trusty" />
+  <project path="android" name="shine911/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -113,7 +110,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
-  <project path="ubuntu/libhybris" name="ubuntu/libhybris" remote="review" revision="refs/heads/phablet-saucy" />
+  <project path="ubuntu/libhybris" name="ubuntu/libhybris" revision="refs/heads/saucy" />
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
 
@@ -126,8 +123,5 @@
   </project>
   <project path="kernel/samsung/u8500" name="shine911/Samsung_STE_Kernel" remote="github" revision="phablet-trusty" />
   <project path="device/samsung/codina" name="shine911/device_samsung_codina" remote="github" revision="phablet-trusty" />
-  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1" />
-  <project path="device/samsung/u8500-common" name="shine911/android_device_samsung_u8500-common" remote="github" revision="phablet-trusty" />
-  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="github" revision="cm-10.1" />
   <!-- codina source end-->
 </manifest>
