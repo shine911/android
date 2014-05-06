@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch="git://github.com" />
 
+  <remote  name="review"
+           fetch="https://code-review.phablet.ubuntu.com/p/" />
+	
   <default revision="refs/heads/phablet-trusty"
            remote="phablet"
            sync-c="true"
@@ -110,7 +113,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
   <project path="ubuntu/assets" name="ubuntu/assets" revision="refs/heads/master" />
-  <project path="ubuntu/libhybris" name="ubuntu/libhybris" revision="refs/heads/phablet-saucy" />
+  <project path="ubuntu/libhybris" name="ubuntu/libhybris" remote="review" revision="refs/heads/phablet-saucy" />
   <project path="ubuntu/platform-api" name="ubuntu/platform-api" revision="refs/heads/master" />
   <project path="ubuntu/upstart-property-watcher" name="ubuntu/upstart-property-watcher" revision="refs/heads/master" />
 
