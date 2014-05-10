@@ -2,10 +2,13 @@
 <manifest>
 
   <include name="base-kk-aosp.xml"/>
-
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-j="4" />
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-
   <remote name="github"
            fetch="git://github.com/" />
 
