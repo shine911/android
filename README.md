@@ -1,19 +1,19 @@
-Welcome to SlimRoms
+Welcome to Firefox OS Projects
 ===================
 
 
 Getting Started
 ---------------
 
-To get started with SlimKat, you'll need to get familiar with
+To get started with FireFox Projects, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 Please take note that we have two main line branches depending on
 which hardware base your phone is working.
 
-for codina devices (included codinap):
+for codina devices:
 
-	repo init -u git://github.com/shine911/android.git -b codina-slimkat
+	repo init -u git://github.com/shine911/android.git -b b2g
 
 
 Then sync up with this command:

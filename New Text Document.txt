@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk-aosp.xml"/>
+
+  <remote name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/" />
+
+  <remote name="github"
+           fetch="git://github.com/" />
+
+  <!-- CyanogenMod things -->
+  <remove-project name="bootable/recovery" />
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-11.0" />
+  <project path="external/recovery" name="android_bootable/recovery" remote="CyanogenMod" revision="cm-11.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="CyanogenMod" revision="cm-11.0" />
+
+  <!-- Galaxy ACE 2 things -->
+  <project path="device/samsung/codina" name="shine911/device_samsung_codina" remote="github" revision="kk-b2g" />
+  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="github" revision="3.0.31" />
+  <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="CyanogenMod" revision="cm-11.0" />
+  
+  <!-- <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="v1.4" /> -->
+</manifest>
