@@ -14,9 +14,9 @@
 
   <!-- CyanogenMod things -->
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
-  <remove-project name="platform/bootable/recovery" />
+  <!--<remove-project name="platform/bootable/recovery" />-->
   <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-11.0" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="CyanogenMod" revision="cm-11.0" />
+  <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="CyanogenMod" revision="cm-11.0" />-->
   <project path="hardware/ril" name="android_hardware_ril" remote="CyanogenMod" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="CyanogenMod" revision="cm-11.0" groups="pdk" />
 
