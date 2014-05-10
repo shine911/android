@@ -14,7 +14,6 @@
 
   <!-- CyanogenMod things -->
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="hardware/ril" />
   <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-11.0" />
   <project path="bootable/recovery" name="android_bootable/recovery" remote="CyanogenMod" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="CyanogenMod" revision="cm-11.0" />
