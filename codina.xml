@@ -13,6 +13,7 @@
            fetch="git://github.com/" />
 
   <!-- CyanogenMod things -->
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
   <remove-project name="platform/bootable/recovery" />
   <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="cm-11.0" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="CyanogenMod" revision="cm-11.0" />
