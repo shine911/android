@@ -421,17 +421,19 @@
 
   <!-- My source-->
   <project path="android" name="shine911/android" remote="github" revision="codina-aospa" />
-  <project path="device/samsung/codina" name="shine911/device_samsung_codina" remote="github" revision="aospa" />
+  <project path="device/samsung/codina" name="shine911/android_device_samsung_codina" remote="github" revision="aospa" />
+  <project path="device/samsung/u8500-common" name="shine911/android_device_samsung_u8500-common" remote="github" revision="aospa" />
 
   <!-- TeamCanjica Codina Source And NovaThorSettings -->
-  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="github" revision="3.0.31" />
-  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" remote="github" revision="master" />
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" revision="cm-11.0" />
+  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" revision="3.0.31" />
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" revision="cm-11.0" />
+  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" revision="master" />
 
   <!-- STE U8500 PATCHES -->
   <project path="patch" name="shine911/build" remote="github" revision="aospa">
 	<copyfile src="build.sh" dest="build.sh"/>
 	<copyfile src="patch.sh" dest="patch.sh"/>
-	<copyfile src="upload.sh" dest="upload.sh"/>
   </project>
 
 </manifest>
