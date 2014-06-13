@@ -23,6 +23,7 @@
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="SlimRoms/android_bootable_recovery" remote="github" revision="kk4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
@@ -419,10 +420,6 @@
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
-  
-  <!-- Omni Recovery -->
-  <project path="bootable/recovery" name="Omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
-  
 
   <!-- My source-->
   <project path="android" name="shine911/android" remote="github" revision="codina-slimkat" />
