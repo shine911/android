@@ -16,6 +16,9 @@
   <remote name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
 
+  <remote name="SourceForge"
+           fetch="git://git.code.sf.net/p/" />
+
   <remote name="cm"
            fetch="git://github.com"
            review="review.cyanogenmod.org" />
@@ -387,8 +390,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="NovaFusion/novatp_arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" groups="pdk,linux,arm" remote="github" revision="4.8-androideabi" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="smtoolchainsarmandroideabi48/code" groups="pdk,linux,arm" remote="SourceForge" revision="sm-kk-mr1" />  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
