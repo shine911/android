@@ -255,7 +255,7 @@
   <project path="buildbot" name="shine911/build" remote="github" revision="kernel">
       <copyfile src="buildbot/build.sh" dest="build.sh" />
   </project>
-  <project path="device/samsung/codina" name="shine911/android_device_samsung_codina" remote="github" revision="kernel" />
+  <project path="device/samsung/codina" name="shine911/android_device_samsung_codina" remote="github" revision="cm-10.1" />
   <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="github" revision="3.0.101" />
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1" />
