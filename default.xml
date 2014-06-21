@@ -18,6 +18,8 @@
   <project path="android" name="shine911/android" remote="github" revision="kernel" />
   <project path="buildbot" name="shine911/build" remote="github" revision="kernel">
       <copyfile src="build.sh" dest="build.sh" />
+      <copyfile src="ramdisk.cpio" dest="ramdisk/ramdisk.cpio" />
+      <copyfile src="ramdisk-recovery.cpio" dest="ramdisk/ramdisk-recovery.cpio" />
   </project>
 
 </manifest>
