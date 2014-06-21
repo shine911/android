@@ -17,8 +17,8 @@
   <!-- Device source-->
   <project path="android" name="shine911/android" remote="github" revision="kernel" />
   <project path="buildbot" name="shine911/build" remote="github" revision="kernel">
-      <copyfile src="buildbot/build.sh" dest="build.sh" />
+      <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="kernel" name="TeamCanjica/Samsung_STE_Kernel" remote="github" revision="3.0.101" />
+  <project path="kernel" name="shine911/Samsung_STE_Kernel" remote="github" revision="3.0.101" />
 
 </manifest>
