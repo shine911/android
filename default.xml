@@ -19,6 +19,5 @@
   <project path="buildbot" name="shine911/build" remote="github" revision="kernel">
       <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="kernel" name="shine911/Samsung_STE_Kernel" remote="github" revision="3.0.101" />
 
 </manifest>
