@@ -9,6 +9,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote name="SourceForge"
+           fetch="git://git.code.sf.net/p/" />
+
   <remote name="private"
            fetch="ssh://git@github.com" />
 
