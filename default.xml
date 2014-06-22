@@ -97,7 +97,7 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" revision="jellybean" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="refs/tags/android-4.2.2_r1" />
 
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
