@@ -116,7 +116,7 @@
       <copyfile src="patch.sh" dest="patch.sh" />
   </project>
   <project path="kernel/samsung/u8500" name="shine911/Samsung_STE_Kernel" remote="github" revision="3.0.101" />
-  <project path="device/samsung/codina" name="shine911/device_samsung_codina" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/codina" name="shine911/android_device_samsung_codina" remote="github" revision="cm-10.1" />
   <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="github" revision="cm-10.1" />
   <!-- NOT NEED 
   <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="github" revision="cm-10.1" />
