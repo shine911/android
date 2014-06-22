@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="aosp"
+           fetch="https://android.googlesource.com/" />
+
   <remote name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -9,7 +12,7 @@
            fetch="git://git.code.sf.net/p/" />
 
   <default revision="refs/heads/cm-10.1"
-           remote="github"
+           remote="aospa"
            sync-c="true"
            sync-j="4" />
 
@@ -95,7 +98,6 @@
   <project path="prebuilts/qemu-kernel" name="CyanogenMod/ubuntu_prebuilts_qemu_kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="refs/tags/android-4.2.2_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="refs/tags/android-4.2.2_r1" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.7.2" name="platform/prebuilts/linaro-4.7.2" revision="refs/heads/master" />
 
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
