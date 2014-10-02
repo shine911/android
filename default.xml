@@ -470,7 +470,7 @@
 
 
   <!-- STE U8500 PATCHES -->
-  <project path="patch" name="shine911/build" remote="github" revision="aospa">
+  <project path="patch" name="shine911/build" remote="github" revision="common-aospa">
 	<copyfile src="build.sh" dest="build.sh"/>
 	<copyfile src="patch.sh" dest="patch.sh"/>
   </project>
